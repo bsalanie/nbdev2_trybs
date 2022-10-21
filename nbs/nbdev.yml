@@ -2,8 +2,8 @@ project:
   output-dir: _docs
 
 website:
-  title: "nbdev2_trybs"
-  site-url: "https://bsalanie.github.io/nbdev2_trybs"
+  title: "nbdev2-trybs"
+  site-url: "https://bsalanie.github.io/nbdev2-trybs"
   description: "trybs"
   repo-branch: main
-  repo-url: "https://github.com/bsalanie/nbdev2_trybs"
+  repo-url: "https://github.com/bsalanie/nbdev2-trybs"

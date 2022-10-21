@@ -8,13 +8,13 @@ from fastcore.utils import *
 
 
 
-# %% ../nbs/index.ipynb 9
+# %% ../nbs/index.ipynb 10
 suits = ['Trefle', 'Carreau', 'Coeur', 'Pique']
 
-# %% ../nbs/index.ipynb 10
+# %% ../nbs/index.ipynb 11
 ranks = [str(i) for i in range(2, 11)] + ['Valet', 'Dame', 'Roi', 'As']
 
-# %% ../nbs/index.ipynb 11
+# %% ../nbs/index.ipynb 12
 class Card:
     " A playing card"
     def __init__(self, 
@@ -30,10 +30,10 @@ class Card:
     __repr__ = __str__
 
 
-# %% ../nbs/index.ipynb 19
+# %% ../nbs/index.ipynb 22
 @patch
 def __lt__(self: Card, b: Card): return (self.suit, self.rank) < (b.suit, b.rank)
 
-# %% ../nbs/index.ipynb 20
+# %% ../nbs/index.ipynb 23
 @patch
 def __gt__(self: Card, b: Card): return (self.suit, self.rank) > (b.suit, b.rank)
