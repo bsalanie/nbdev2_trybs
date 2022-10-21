@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "card: a module to play cards",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "card: a module to play cards",
+    "section": "Install",
+    "text": "Install\npip install nbdev2_trybs"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "card: a module to play cards",
+    "section": "How to use",
+    "text": "How to use\nYou need to import nbdev2_trybs.card.\nFirst we create two global variables.\n\nsource\n\nCard\n\n Card (suit:int, rank:int)\n\nA playing card\n\n\n\n\nType\nDetails\n\n\n\n\nsuit\nint\nan integer index into suits\n\n\nrank\nint\nan integer index into ranks\n\n\n\nCreating a card:\n\nc = Card(1, 4)\n\nPrinting it, two ways:\n\nc\n\n6 de Carreau\n\n\n\nprint(c)\n\n6 de Carreau\n\n\n\n\n\n\nsource\n\nCard\n\n Card (suit:int, rank:int)\n\nA playing card\n\n\n\n\nType\nDetails\n\n\n\n\nsuit\nint\nan integer index into suits\n\n\nrank\nint\nan integer index into ranks\n\n\n\n\n\n\nRunning some tests:\nWe have comparison operators between Cards."
+  }
+]
